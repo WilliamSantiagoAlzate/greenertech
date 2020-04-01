@@ -1,25 +1,36 @@
+//Import react libraries
 import React from 'react';
-import logo from './logo.svg';
+import { Switch, Route } from 'react-router-dom';
+
+//Import views
+import Home from './views/home/Home';
+import About from './views/about/About';
+import Products from './views/products/Products';
+import Services from './views/services/Services';
+import Contact from './views/contact/Contact';
+
+//Import styles
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Switch>
+      <Route exact path="/">
+        <Home/>
+      </Route>
+      <Route exact path="/nosotros">
+        <About/>
+      </Route>
+      <Route exact path="/productos">
+        <Products/>
+      </Route>
+      <Route exact path="/servicios">
+        <Services/>
+      </Route>
+      <Route exact path="/contacto">
+        <Contact/>
+      </Route>
+    </Switch>
   );
 }
 

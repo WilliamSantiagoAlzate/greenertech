@@ -1,0 +1,12 @@
+.logo {
+    height: 50px; 
+}
+
+.logo img {
+    height: 100%;
+}
+
+.container {
+    display: flex !important;
+    justify-content: space-between !important;
+}
