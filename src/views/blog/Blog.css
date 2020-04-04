@@ -1,0 +1,32 @@
+h1 {
+    margin: auto;
+}
+
+p {
+    padding-bottom: 0 !important;
+}
+
+.blog-content {
+    width: 100vw;
+}
+
+.author {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.author span {
+    font-weight: bold;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.images img {
+    width: 45%;
+    margin-bottom: 20px;
+}

@@ -6,7 +6,7 @@
     height: 100%;
 }
 
-.container {
+.navbar-content {
     display: flex !important;
     justify-content: space-between !important;
 }

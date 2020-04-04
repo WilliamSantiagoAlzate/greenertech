@@ -1,13 +1,16 @@
 //Import react libraries
 import React, { Component } from "react";
 
+//Import style
+import './Footer.css';
+
 //Create component
 export default class Footer extends Component {
     render() {
         return (
-            <footer className="bg-light" style={{height: "60px"}}>
-                <div className="container h-100">
-                    <span className="m-auto">Copyright © 2020 GREENERT - Todos los derechos reservados.</span>
+            <footer className="bg-light">
+                <div className="container h-100 footer">
+                    <span>Copyright © 2020 GREENERT - Todos los derechos reservados.</span>
                 </div>
             </footer>
         )
