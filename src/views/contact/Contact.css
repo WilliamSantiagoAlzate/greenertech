@@ -1,8 +1,60 @@
-h1 {
-    margin: auto;
+.contact-content {
+    width: 100vw;
+    text-align: center;
 }
 
-.content {
-    width: 100vw;
-    height: 50vh;
+.contact-header {
+    margin-bottom: 30px;
+}
+
+.contact-header h5 {
+    font-weight: normal;
+}
+
+.contact-form {
+    padding: 0 20vw;
+}
+
+.form-check {
+    text-align: left;
+}
+
+.wa-content {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.wa-button {
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px;
+    border-radius: 4px;
+    background-color: rgb(69, 90, 100);
+}
+
+.wa-button:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(60, 90, 100);;
+}
+
+img {
+    height: 30px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 70px;
+}
+
+.info {
+    width: 50%;
+    text-align: center;
+    padding: 0 8vw;
+}
+
+.info p {
+    text-align: center;
+    margin: 0;
 }
